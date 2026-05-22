@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ann Jellica — portfolio with projects, CV, skills, certifications, and professional links.">
+    <title>Ann Jellica - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <a href="#home" class="logo">My Portfolio</a>
+
+        <div class="menu-btn">
+            <i class='bx bx-menu'></i>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#presence">Online</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Ann Jellica</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+
+            <p>I'm a Web Designer with extensive experience for over 1 year.<br>My expertise is to create website designs, Frontend development, and many more...</p>
+
+            <div class="btn-box">
+                <a href="#contact">Hire Me</a>
+                <a href="#contact">Let's Talk</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="glowing-circle">
+                <span></span>
+                <span></span>
+                <div class="image">
+                    <img src="me.jpg" alt="Professional headshot of Ann Jellica">
+                </div>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+        </div>
+    </section>
+
+    <!-- About: bio (3–5 sentences), photo, CV PDF -->
+    <section id="about" class="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content">
+            <div class="about-img">
+                <div class="glowing-circle">
+                    <span></span>
+                    <span></span>
+                    <div class="image">
+                        <img src="me.jpg" alt="Professional headshot of Ann Jellica for portfolio and CV">
+                    </div>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>Frontend Developer &amp; Designer</h3>
+                <p class="bio-lead">About me</p>
+                <p class="bio">I am Ann Jellica B. Abrogueña, a frontend developer and designer based in Malaybalay, Bukidnon, with over a year of experience building responsive web interfaces for coursework, personal projects, and small client-style briefs. I enjoy turning layout ideas into clean HTML and CSS, then adding interactivity with JavaScript where it improves the user experience. My strengths include attention to spacing and typography, mobile-first layouts, and clear communication when collaborating on features or fixes. I am continuing to grow through practice, feedback from instructors, and by shipping small projects end to end. I am motivated to join teams where I can keep learning while contributing reliable, maintainable front-end work.</p>
+
+                <div class="about-info">
+                    <div class="info-row">
+                        <div class="info-item">
+                            <i class='bx bx-user'></i>
+                            <div class="info-content">
+                                <span>Name</span>
+                                <p>Ann Jellica B. Abrogueña</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class='bx bx-map'></i>
+                            <div class="info-content">
+                                <span>Location</span>
+                                <p>P-3 Casisang Malaybalay, Bukidnon</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-item">
+                            <i class='bx bx-envelope'></i>
+                            <div class="info-content">
+                                <span>Email</span>
+                                <p>annjellicaabroguena234@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class='bx bx-briefcase'></i>
+                            <div class="info-content">
+                                <span>Experience</span>
+                                <p>1+ Years</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-buttons">
+                    <a href="cv/CV.pdf" class="btn" download>Download Curriculum Vitae (PDF)</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects: 4 featured works with role, tools, outcomes, GitHub/GitLab, demo, video, ZIP -->
+    <section id="projects" class="portfolio featured-work">
+        <h2 class="heading">Featured <span>Projects</span></h2>
+        <p class="section-lead">Four representative projects (personal, academic, or internship-style). Each entry includes my role, tools, outcomes, screenshots, repository or archive, optional live deployment, and a short walkthrough link.</p>
+
+        <article class="project-card">
+            <div class="project-card-media">
+                <img src="https://images.unsplash.com/photo-1557821552-17105176677c?w=900&h=560&fit=crop" width="900" height="560" loading="lazy" alt="Screenshot of e-commerce storefront project">
+            </div>
+            <div class="project-card-body">
+                <p class="project-badge">Academic · Web application</p>
+                <h3 class="project-title">E-commerce storefront UI</h3>
+                <dl class="project-meta">
+                    <div><dt>My role</dt><dd>Front-end developer — product listing pages, cart layout, and responsive navigation for a class deliverable.</dd></div>
+                    <div><dt>Tools used</dt><dd>HTML5, CSS3, JavaScript, Git; assets prepared in Figma-style mockups.</dd></div>
+                    <div><dt>Outcomes</dt><dd>Met project rubric for responsiveness and accessibility basics; presented live demo to the class.</dd></div>
+                </dl>
+                <ul class="project-links" aria-label="Project links">
+                    <li><a class="link-pill" href="#" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external'></i> Live deployment</a></li>
+                    <li><a class="link-pill" href="https://github.com/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i> Source on GitHub / GitLab</a></li>
+                    <li><a class="link-pill" href="#" target="_blank" rel="noopener noreferrer"><i class='bx bxl-youtube'></i> Video walkthrough</a></li>
+                    <li><a class="link-pill link-pill--ghost" href="#" download><i class='bx bx-download'></i> Project ZIP (if not public)</a></li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="project-card project-card--reverse">
+            <div class="project-card-media">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=900&h=560&fit=crop" width="900" height="560" loading="lazy" alt="Screenshot of analytics dashboard UI project">
+            </div>
+            <div class="project-card-body">
+                <p class="project-badge">Academic · UI / dashboard</p>
+                <h3 class="project-title">Analytics dashboard concept</h3>
+                <dl class="project-meta">
+                    <div><dt>My role</dt><dd>UI designer and front-end implementer — charts layout, cards, and dark/light contrast for readability.</dd></div>
+                    <div><dt>Tools used</dt><dd>HTML, CSS (Grid/Flexbox), JavaScript for light DOM updates; reference designs from course brief.</dd></div>
+                    <div><dt>Outcomes</dt><dd>Delivered clickable prototype plus documentation of component states for assessment.</dd></div>
+                </dl>
+                <ul class="project-links" aria-label="Project links">
+                    <li><a class="link-pill" href="#" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external'></i> Live deployment</a></li>
+                    <li><a class="link-pill" href="https://github.com/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i> Source on GitHub / GitLab</a></li>
+                    <li><a class="link-pill" href="#" target="_blank" rel="noopener noreferrer"><i class='bx bxl-youtube'></i> Video walkthrough</a></li>
+                    <li><a class="link-pill link-pill--ghost" href="#" download><i class='bx bx-download'></i> Project ZIP (if not public)</a></li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-card-media">
+                <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=900&h=560&fit=crop" width="900" height="560" loading="lazy" alt="Screenshot of travel blog responsive site">
+            </div>
+            <div class="project-card-body">
+                <p class="project-badge">Personal · Content site</p>
+                <h3 class="project-title">Responsive travel blog</h3>
+                <dl class="project-meta">
+                    <div><dt>My role</dt><dd>Sole author — structure, styling, image treatment, and performance-minded image loading.</dd></div>
+                    <div><dt>Tools used</dt><dd>Semantic HTML, CSS, a small amount of JavaScript for mobile menu behavior.</dd></div>
+                    <div><dt>Outcomes</dt><dd>Practiced reusable section patterns and published a stable multi-page layout for my portfolio sample.</dd></div>
+                </dl>
+                <ul class="project-links" aria-label="Project links">
+                    <li><a class="link-pill" href="#" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external'></i> Live deployment</a></li>
+                    <li><a class="link-pill" href="https://github.com/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i> Source on GitHub / GitLab</a></li>
+                    <li><a class="link-pill" href="#" target="_blank" rel="noopener noreferrer"><i class='bx bxl-youtube'></i> Video walkthrough</a></li>
+                    <li><a class="link-pill link-pill--ghost" href="#" download><i class='bx bx-download'></i> Project ZIP (if not public)</a></li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="project-card project-card--reverse">
+            <div class="project-card-media">
+                <img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?w=900&h=560&fit=crop" width="900" height="560" loading="lazy" alt="Screenshot of fitness tracking app UI project">
+            </div>
+            <div class="project-card-body">
+                <p class="project-badge">Academic / internship-style · App UI</p>
+                <h3 class="project-title">Fitness tracking app screens</h3>
+                <dl class="project-meta">
+                    <div><dt>My role</dt><dd>UI-focused teammate — high-fidelity screens and front-end slice for key flows (onboarding, log workout).</dd></div>
+                    <div><dt>Tools used</dt><dd>HTML/CSS prototypes, JavaScript interactions, Git collaboration with classmates or mentor feedback.</dd></div>
+                    <div><dt>Outcomes</dt><dd>Reduced design–dev mismatch by sharing a single repo with labeled components and README notes.</dd></div>
+                </dl>
+                <ul class="project-links" aria-label="Project links">
+                    <li><a class="link-pill" href="#" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external'></i> Live deployment</a></li>
+                    <li><a class="link-pill" href="https://github.com/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i> Source on GitHub / GitLab</a></li>
+                    <li><a class="link-pill" href="#" target="_blank" rel="noopener noreferrer"><i class='bx bxl-youtube'></i> Video walkthrough</a></li>
+                    <li><a class="link-pill link-pill--ghost" href="#" download><i class='bx bx-download'></i> Project ZIP (if not public)</a></li>
+                </ul>
+            </div>
+        </article>
+    </section>
+
+    <!-- Skills inventory + certifications -->
+    <section id="skills" class="skills-section">
+        <h2 class="heading">Skills &amp; <span>Tools</span></h2>
+        <p class="section-lead">Programming languages, frameworks, tools, and platforms I am comfortable with today (edit to match your exact stack).</p>
+
+        <div class="skills-grid">
+            <div class="skills-panel">
+                <h3 class="skills-panel-title">Languages</h3>
+                <ul class="tag-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>   
+                    <li>C++</li>
+                    <li>PHP</li>
+                </ul>
+            </div>
+            <div class="skills-panel">
+                <h3 class="skills-panel-title">Frameworks &amp; libraries</h3>
+                <ul class="tag-list">
+                    <li>Vanilla JS components</li>
+                    <li>Responsive CSS (Flexbox, Grid)</li>
+                    <li>Open to React / Vue (course next)</li>
+                </ul>
+            </div>
+            <div class="skills-panel">
+                <h3 class="skills-panel-title">Tools &amp; platforms</h3>
+                <ul class="tag-list">
+                    <li>Git &amp; GitHub</li>
+                    <li>VS Code / Cursor</li>
+                    <li>Chrome DevTools</li>
+                    <li>Figma (layouts &amp; handoff)</li>
+                    <li>XAMPP / local hosting</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 class="subheading"><span>Certifications</span></h3>
+        <p class="section-lead section-lead--tight">List each certificate or badge with a link to the issuer or credential page.</p>
+        <ul class="cert-list">
+            <li>
+                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp — Responsive Web Design (replace with your credential URL)</a>
+            </li>
+            <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">Your next certificate — link to PDF, Credly, or Acclaim badge</a>
+            </li>
+            <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">Optional third certification</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Creating responsive and dynamic websites using modern technologies like HTML5, CSS3, and JavaScript. Building interactive user interfaces that engage and delight users.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-paint-roll'></i>
+                <h3>UI/UX Design</h3>
+                <p>Designing intuitive and beautiful user interfaces that enhance user experience. Creating wireframes, prototypes, and visual designs that align with brand identity.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-mobile-alt'></i>
+                <h3>Responsive Design</h3>
+                <p>Developing websites that work seamlessly across all devices and screen sizes. Ensuring optimal user experience on desktops, tablets, and mobile devices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Online presence: GitHub pins, LinkedIn, portfolio URL, domain -->
+    <section id="presence" class="presence-section">
+        <h2 class="heading">Online <span>Presence</span></h2>
+        <p class="section-lead">GitHub (with pinned repositories), LinkedIn, this portfolio’s URL, and any custom domain you own.</p>
+        <div class="presence-grid">
+            <a class="presence-card" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class='bx bxl-github'></i>
+                <h3>GitHub</h3>
+                <p>Pin 4–6 repositories on your profile. Replace this link with your username.</p>
+                <span class="presence-card-cta">Open profile →</span>
+            </a>
+            <a class="presence-card" href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">
+                <i class='bx bxl-linkedin'></i>
+                <h3>LinkedIn</h3>
+                <p>Even a basic profile helps instructors and employers verify your background.</p>
+                <span class="presence-card-cta">Open profile →</span>
+            </a>
+            <div class="presence-card presence-card--static">
+                <i class='bx bx-globe'></i>
+                <h3>Portfolio site URL</h3>
+                <p class="presence-url">http://localhost/Portfolio/</p>
+                <p class="presence-note">Update this text when you deploy (Netlify, GitHub Pages, school server, etc.).</p>
+            </div>
+            <div class="presence-card presence-card--static">
+                <i class='bx bx-badge-check'></i>
+                <h3>Custom domain</h3>
+                <p>If you purchased a domain (for example <em>yourname.com</em>), write it here and point it to your host.</p>
+                <p class="presence-url presence-url--muted">your-domain.com (optional)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's talk about everything!</h3>
+                <p>Don't like forms? Send me an email at <a href="mailto:annjellicaabroguena234@gmail.com">annjellicaabroguena234@gmail.com</a></p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class='bx bx-map'></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>P-3 Casisang Malaybalay, Bukidnon</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class='bx bx-envelope'></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>annjellicaabroguena234@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class='bx bx-phone'></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+63 909 241 5372</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form action="#" class="contact-form">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Subject" required>
+                </div>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <button id="scroll-top" class="scroll-top" type="button" aria-label="Scroll to top">
+        <i class='bx bx-up-arrow-alt'></i>
+    </button>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
